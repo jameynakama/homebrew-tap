@@ -4,11 +4,11 @@ class Whatnow < Formula
   desc "Executive function for the rest of us: plans your day and picks what's next"
   homepage "https://github.com/jameynakama/whatnow"
   if Hardware::CPU.arm?
-    url "https://github.com/jameynakama/whatnow/releases/download/v0.4.0/whatnow-darwin-arm64"
-    sha256 "4ace4f7b31d754e09ae656bb69b9194f3ffd85182d3091c3fff2d8b180ccacc4"
+    url "https://github.com/jameynakama/whatnow/releases/download/v0.5.0/whatnow-darwin-arm64"
+    sha256 "8d135705310e76210431f1f8de93a78807e33ac9a0ff3076f6cbd98f17e35b60"
   else
-    url "https://github.com/jameynakama/whatnow/releases/download/v0.4.0/whatnow-darwin-amd64"
-    sha256 "f0e82927abd9a4e4725da03ae7e5beb0792e9031395ab0a9306035be3519680e"
+    url "https://github.com/jameynakama/whatnow/releases/download/v0.5.0/whatnow-darwin-amd64"
+    sha256 "2702cedeaa70f5121bfe84288dd8a6882ec7ad39dd9d8e5315a38dc17106ef25"
   end
   license "MIT"
 
